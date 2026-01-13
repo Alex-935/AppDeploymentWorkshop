@@ -210,7 +210,6 @@ This is an example and your version may differ, just make sure the first number 
 
 
 
-
 # Optional Challenge: Bash Script to automate challenge 1
 
     - This code can also be found in scripts/deploy-app.sh
