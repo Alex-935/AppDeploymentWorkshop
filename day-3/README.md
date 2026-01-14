@@ -34,7 +34,7 @@ sudo systemctl status mongod
 
 
 ## install files and config files are stored in /etc folder
-cd etc && ls
+cd /etc && ls
     - look for mongod.conf
 
 sudo nano mongod.conf
@@ -59,6 +59,8 @@ export DB_HOST=mongodb://DB-IP-ADDRESS:27017/posts
 
 sudo systemctl start mongod
 sudo systemctl status mongod
+
+
 
 ### Using public ip instead of DB-IP-ADDRESS 
 export DB_HOST=mongodb://<PublicIP>:27017/posts
