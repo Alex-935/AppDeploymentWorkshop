@@ -108,6 +108,18 @@ sudo systemctl enable mongod
 
 ### Make sure the /etc/mongod.conf line has changed to 0.0.0.0
 
+    - To do this manually:
+```
+# cd into /etc folder
+cd /etc
+
+# open mongod.conf file in the text-editor
+sudo nano mongod.conf
+```
+    - Change the following IP to 0.0.0.0, as shown below:
+
+![alt text](images/nanoConfig.png)
+
 # In your second VM
 
     - SSH into the machine using the same instructions from before.
@@ -227,6 +239,11 @@ source ~/.bashrc
     - All other settings are the same.
     
 ![alt text](images/instanceFromAMI.png)
+
+    - SSH into this new machine
+    - If there is an error about logging in as root, change 'root' in the SSH command to 'ubuntu'.
+
+![alt text](images/sshError.png)
 
 
 ## The IP will be different so we need to update out Environment Variable
