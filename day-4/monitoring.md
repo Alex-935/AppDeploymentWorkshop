@@ -39,6 +39,7 @@
 ![alt text](images/cpuUtilisationConfig.png)
 ![alt text](images/updatedCpuUtilConfig.png)
 ![alt text](images/configureActions.png)
+![alt text](images/configureActionsUpdated.png)
 ![alt text](images/alarmDetails.png)
 ![alt text](images/finalAlarmConfig.png)
 
@@ -46,3 +47,9 @@
 
 ![alt text](images/inAlarmData.png)
 
+    - Notifications:
+    
+![alt text](images/emailNotification.png)
+![alt text](images/alarmSubNoti.png)
+
+![alt text](images/aswAlarmNotification.png)
