@@ -6,10 +6,10 @@ Cloud:
 App Deployment - 12/01/26
 (1 Week)
 
-Cloud IaC & VPC - 
+Cloud IaC & VPC - 02/02/26 - 06/02/26
 (1 Week)
 
-DevOps Advanced - 
+DevOps Advanced - On Demand
 (4 Week)
 
 ------------------------------------------------------------------------------------------
@@ -31,19 +31,16 @@ Data Advanced -
 
 Software Development:
 
-Java Core - 02/02/26
+Java Core - 02/02/26  09/13/26 -  14/02/26
 (2 Week)
 
-Resilient Java: Build with Confidence - 
+Resilient Java: Build with Confidence - 16/02/26
 (1 Week)
 
-Java Advanced - 
+Java Advanced - On Demand
 (4 Week)
 
 ------------------------------------------------------------------------------------------
 
-26/01/26
 
-16/02/26 +
-
-13.4
+On Demands, if enough people or a sparta partner will lead it. Not timetabled.

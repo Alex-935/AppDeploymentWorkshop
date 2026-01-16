@@ -1,3 +1,4 @@
+# Automating Machines, Load-Balancing and Auto-Scaling
 
 ## When launching instance
 
@@ -46,6 +47,8 @@ pm2 start app.js
     We then launch the image and distribute the workload
 
 
+-----------------------------------------------------------------------------------------------
+
 
 ## Different configuration patterns
 
@@ -86,3 +89,58 @@ pm2 start app.js
         1. Restart suspended DB VM and grab its IP.
         2. Run an app VM and put the above script in the advanced settings.
         3. Wait for it to execute and go to http://<ip>:3000/posts.
+
+
+-----------------------------------------------------------------------------------------------
+
+
+## Auto-Scaling
+
+![alt text](images/AutoScalingLaunchTemplate.png)
+![alt text](images/AutoScalingLaunchTemplate2.png)
+
+    - Under Advanced Settings, reuse the same script as before.
+    - Click create template.
+
+![alt text](images/confirmationInstanceTemplate.png)
+
+![alt text](images/templateOverview.png)
+
+    - Launching from template auto-fills key-pairs, AMIs, anvanced settings, security groups, etc
+![alt text](images/launchFromTemplate.png)
+![alt text](images/instanceConfirmation.png)
+
+    - To add a name to the instance: 
+
+![alt text](images/howToAddTag.png)
+![alt text](images/addTagScreen.png)
+
+
+## Set up Auto-Scalling Group:
+
+![alt text](images/autoScalingMainPage.png)
+![alt text](images/autoScalingStep1.png)
+![alt text](images/autoScalingStep2.png)
+![alt text](images/autoScalingStep3a.png)
+![alt text](images/autoScalingStep3b.png)
+![alt text](images/autoScalingStep4.png)
+![alt text](images/autoScalingStep4b.png)
+![alt text](images/autoScalingStep5.png)
+
+    - HA-SC: High-Availability Scaling
+![alt text](images/autoScalingStep6.png)
+
+![alt text](images/autoScalingReviewA.png)
+![alt text](images/autoScalingReviewB.png)
+![alt text](images/autoScalingReviewC.png)
+
+    - To check its running correctly:
+![alt text](images/checkIsWorking1.png)
+![alt text](images/loadBalancerOfverview.png)
+
+    - Copy the 'DNS name' and paste it into a browser to get back to the main page:
+        - Add '/posts' to the URL to get the database
+
+![alt text](images/dnsWebpage.png)
+![alt text](images/dnsWebpageDB.png)
+
